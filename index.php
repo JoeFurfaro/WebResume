@@ -32,7 +32,7 @@
                                 <div class="col-12 col-md-6 pt-3 pt-md-1 pr-0 pl-0 pt-md-4 pb-4">
                                     <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="https://github.com/JoeFurfaro">Github</a>
                                     <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="https://www.linkedin.com/in/joe-furfaro-6944aa191/">LinkedIn</a>
-                                    <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="/request.php">Request References</a>
+                                    <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="https://instagram.com/joefurf">Instagram</a>
                                     <div class="d-md-none">
                                         <hr />
                                         <h4 class="text-center mt-0">About Me</h4>
