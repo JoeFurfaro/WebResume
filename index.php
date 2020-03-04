@@ -20,7 +20,7 @@
         <main>
             <div class="container-fluid">
                 <div class="row">
-                    <div id="main" class="col-12 col-md-9 pl-0 pr-0">
+                    <div id="main" class="col-12 col-md-9 pl-0 pr-0 bg-main">
                         <div id="left-section" class="col-12">
                             <div class="row">
                                 <div class="col-12 col-md-6 pr-0 pl-0 pt-md-4 pb-md-4">
@@ -32,7 +32,7 @@
                                 <div class="col-12 col-md-6 pt-3 pt-md-1 pr-0 pl-0 pt-md-4 pb-4">
                                     <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="https://github.com/JoeFurfaro">Github</a>
                                     <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="https://www.linkedin.com/in/joe-furfaro-6944aa191/">LinkedIn</a>
-                                    <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="/request.php">Request Résumé</a>
+                                    <a class="mr-md-5 d-block ml-auto text-center text-md-right" target="_blank" href="/request.php">Request References</a>
                                     <div class="d-md-none">
                                         <hr />
                                         <h4 class="text-center mt-0">About Me</h4>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div id="right-section" class="col-12 col-md-3">
-                        <div class="row">
+                        <div class="row d-none d-md-block">
                             <div class="col-12 pr-0 pl-0">
                                 <img class="img-fluid d-none d-md-block" src="<?php echo $img_href; ?>">
                             </div>
@@ -102,13 +102,42 @@
                             </div>
                         </div>
                         <div class="row bg-right-2">
-                            <div id="about-me" class="col-12 pb-4 pr-0 pl-0">
+                            <div class="col-12 pb-4 pr-0 pl-0">
                                 <h4 class="text-center mt-4">Technical Skills</h4>
                                 <h5 class="text-center mt-0 mb-0 mr-4 ml-4"><small>Python, Java, Javascript, Haskell, PHP, HTML, CSS, Bootstrap, BASH scripting, Unix, Slack, Discord, TeamGantt, Excel, Google Sheets, MySQL, Photoshop, Premiere Pro, Illustrator, Computer vision (including camera object detection), Git, WordPress</small></h5>
                             </div>
                         </div>
+                        <div class="row bg-right-1">
+                            <div class="col-12 pb-4 pr-0 pl-0">
+                                <h4 class="text-center mt-4">Other Skills</h4>
+                                <h5 class="text-center mt-0 mb-0 mr-4 ml-4"><small>Project management, team communication and task distribution, code documentation and manual production, deployable UI and UX development, development of prototype testing plans and procedures, problem solving and creating algorithms, communication and relationship growth with clients and customers</small></h5>
+                            </div>
+                        </div>
+                        <div class="row bg-right-2">
+                            <div class="col-12 pb-4 pr-0 pl-0">
+                                <h4 class="text-center mt-4">Accomplishments</h4>
+                                <h5 class="text-center mr-4 ml-4"><small>Data Management Excellence Award - <em>Aurora High School, 2019</em></small></h5>
+                                <h5 class="text-center mr-4 ml-4"><small>Ontario Scholar - <em>Government of Ontario, 2019</em></small></h5>
+                                <h5 class="text-center mr-4 ml-4"><small>Athlete of the Year - <em>Aurora High School, 2019</em></small></h5>
+                                <h5 class="text-center mr-4 ml-4"><small>National Champions (Storm Volleyball) - <em>Volleyball Canada, 2018</em></small></h5>
+                                <h5 class="text-center mr-4 ml-4"><small>Ontario Champions (Storm Volleyball) - <em>Ontario Volleyball Association, 2017, 2018</em></small></h5>
+                            </div>
+                        </div>
+                        <div class="row bg-right-1">
+                            <div class="col-12 pb-4 pr-0 pl-0">
+                                <h4 class="text-center mt-4">References</h4>
+                                <p class="text-center mr-4 ml-4">Available upon request</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <footer>
+                    <div class="row bg-footer">
+                        <div class="col-12 pt-4 pb-4">
+                            <h5 class="text-center"><small><a class="text-primary" target="_blank" href="https://github.com/JoeFurfaro/WebResume">View this Website on GitHub</a><small></h5>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </main>
     </body>
