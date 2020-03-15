@@ -21,3 +21,11 @@
 .bg-footer {
     background-color: #bbbbbb;
 }
+
+a:focus {
+    outline: none;
+}
+
+img:hover {
+    cursor: pointer;
+}
